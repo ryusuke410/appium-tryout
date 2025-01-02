@@ -1,0 +1,22 @@
+{
+  "name": "appium-tryout",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-server": "tsx launch-appium.ts",
+    "handle-youtube": "tsx handle-youtube.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT OR Apache-2.0",
+  "description": "",
+  "dependencies": {
+    "appium": "^2.13.1",
+    "dax-sh": "^0.42.0",
+    "tsx": "^4.19.2",
+    "webdriverio": "^9.5.0"
+  },
+  "devDependencies": {
+    "appium-uiautomator2-driver": "^3.9.6"
+  }
+}
